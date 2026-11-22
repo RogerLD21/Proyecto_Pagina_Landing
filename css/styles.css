@@ -124,6 +124,12 @@ h4 {
   background-color: var(--azul-oscuro);
 }
 
+a:focus-visible,
+.boton:focus-visible {
+  outline: 3px solid var(--azul);
+  outline-offset: 3px;
+}
+
 .boton--claro {
   background-color: var(--blanco);
   color: var(--marino);
