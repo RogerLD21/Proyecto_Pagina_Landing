@@ -2,6 +2,10 @@
 
 Página web estática tipo *landing* para RL Analytica & Engineering, consultoría en automatización de procesos, analítica de datos y soluciones empresariales a la medida. Proyecto 1 del módulo Web Dev Fundamentals, desarrollado de forma individual por Rogelio López.
 
+## Demo
+
+[Ver sitio publicado](https://rogerld21.github.io/Proyecto_Pagina_Landing/)
+
 ## Objetivo
 
 Presentar el negocio y su catálogo de servicios, captar el correo de empresas interesadas en un diagnóstico y permitir el registro de clientes.
@@ -29,3 +33,7 @@ El prototipo de baja fidelidad (escritorio y móvil) se encuentra en la carpeta 
 - CSS3 con distintos tipos de selectores (universal, de elemento, de clase, de id, de atributo, descendiente, hijo, hermano adyacente, hermano general, pseudoclases y pseudoelementos).
 - Flexbox y CSS Grid.
 - Responsive Web Design con media queries.
+
+## Despliegue
+
+Sitio publicado con GitHub Pages desde la rama `main`.

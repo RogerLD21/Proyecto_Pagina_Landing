@@ -223,6 +223,301 @@ input::placeholder {
   font-weight: 600;
 }
 
+main > section {
+  padding: 5rem 0;
+}
+
+section[id] {
+  scroll-margin-top: 80px;
+}
+
+.titulo-seccion {
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.titulo-seccion + .subtitulo {
+  margin-bottom: 3rem;
+  color: var(--gris);
+  text-align: center;
+}
+
+.servicios {
+  background-color: var(--claro);
+}
+
+.servicios__lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.servicio {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-top: 4px solid var(--azul);
+  border-radius: var(--radio);
+  background-color: var(--blanco);
+  box-shadow: var(--sombra);
+  transition: transform 0.3s;
+}
+
+.servicio:hover {
+  transform: translateY(-6px);
+}
+
+.servicio__icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1.2rem;
+  border-radius: 50%;
+  background-color: var(--claro);
+}
+
+.servicio__icono img {
+  width: 44px;
+  height: 44px;
+}
+
+.servicio h3 {
+  margin-bottom: 0.6rem;
+}
+
+.servicio p {
+  color: var(--gris);
+}
+
+.servicio .servicio__etiqueta {
+  margin-top: auto;
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--azul);
+}
+
+.retos {
+  background-color: var(--marino);
+}
+
+.retos .titulo-seccion {
+  color: var(--blanco);
+}
+
+.retos .subtitulo {
+  color: #b8c4d6;
+}
+
+.retos__tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.reto {
+  padding: 2rem;
+  border-left: 4px solid var(--azul);
+  border-radius: var(--radio);
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.reto h3 {
+  margin-bottom: 0.8rem;
+  color: var(--blanco);
+}
+
+.reto p {
+  color: #c9d3e1;
+}
+
+.retos__solucion {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--blanco);
+}
+
+.retos__solucion strong {
+  color: #6fb4f5;
+}
+
+.nosotros__contenido {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nosotros__imagen {
+  flex: 1 1 45%;
+}
+
+.nosotros__imagen img {
+  width: 100%;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+.nosotros__texto {
+  flex: 1 1 55%;
+}
+
+.nosotros__texto h3 {
+  margin-bottom: 0.6rem;
+  font-size: 1.4rem;
+}
+
+.nosotros__texto p {
+  margin-bottom: 1.5rem;
+  color: var(--gris);
+}
+
+.mision-vision {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.mision-vision .tarjeta {
+  text-align: left;
+}
+
+.nosotros__subtitulo {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.beneficios {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.beneficios li {
+  padding: 1.5rem;
+  border-left: 4px solid var(--azul);
+  border-radius: var(--radio);
+  background-color: var(--claro);
+}
+
+.beneficios h4 {
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+}
+
+.beneficios p {
+  font-size: 0.9rem;
+  color: var(--gris);
+}
+
+.contacto__tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.tarjeta {
+  padding: 2rem;
+  border-radius: var(--radio);
+  background-color: var(--claro);
+  text-align: center;
+}
+
+.tarjeta h3 {
+  margin-bottom: 0.8rem;
+  color: var(--azul);
+}
+
+.tarjeta p {
+  color: var(--gris);
+}
+
+.tarjeta p ~ p {
+  margin-top: 0.3rem;
+}
+
+.tarjeta a:hover {
+  color: var(--azul);
+}
+
+#registro {
+  background-color: var(--claro);
+}
+
+.registro__contenido {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.registro__texto .titulo-seccion {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.registro__texto p {
+  margin-bottom: 1rem;
+  color: var(--gris);
+}
+
+.registro__lista li {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.registro__lista li::before {
+  content: "✓";
+  margin-right: 0.6rem;
+  color: var(--azul);
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  padding: 2rem;
+  border-radius: var(--radio);
+  background-color: var(--blanco);
+  box-shadow: var(--sombra);
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.campo label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.campo--completo {
+  grid-column: 1 / -1;
+}
+
+.casilla {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.casilla label {
+  font-weight: 400;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--azul);
+}
+
 .pie {
   padding-top: 3rem;
   background-color: var(--marino);
@@ -265,4 +560,113 @@ input::placeholder {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   font-size: 0.9rem;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .jumbotron__contenido,
+  .nosotros__contenido {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .jumbotron__texto,
+  .suscripcion,
+  .nosotros__imagen,
+  .nosotros__texto {
+    flex-basis: auto;
+  }
+
+  .nosotros__imagen {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .jumbotron h1 {
+    font-size: 2.2rem;
+  }
+
+  .servicios__lista,
+  .beneficios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .retos__tarjetas,
+  .registro__contenido {
+    grid-template-columns: 1fr;
+  }
+
+  .registro__texto .titulo-seccion {
+    text-align: center;
+  }
+
+  .pie__contenido {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .encabezado {
+    position: static;
+  }
+
+  .encabezado__contenido {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  section[id] {
+    scroll-margin-top: 0;
+  }
+
+  main > section,
+  .jumbotron {
+    padding: 3.5rem 0;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.8rem;
+  }
+
+  .titulo-seccion {
+    font-size: 1.8rem;
+  }
+
+  .retos__solucion {
+    font-size: 1.1rem;
+  }
+
+  .servicios__lista,
+  .mision-vision,
+  .beneficios,
+  .contacto__tarjetas,
+  .formulario,
+  .pie__contenido {
+    grid-template-columns: 1fr;
+  }
+
+  .suscripcion,
+  .formulario,
+  .servicio {
+    padding: 1.5rem;
+  }
+
+  .boton {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pie__contenido {
+    text-align: center;
+  }
+
+  .pie .logo {
+    justify-content: center;
+  }
 }
